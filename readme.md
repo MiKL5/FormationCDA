@@ -6,5 +6,9 @@
 
 ## Exercices
 
-### 
+### UML
 
+Cas Niche
+Cas Cheval
+Cas Course de cheval
+Cas Jeux olympiques d'hiver
