@@ -6,5 +6,5 @@
 
 ## Exercices
 
-### UML
+### 
 
