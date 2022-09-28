@@ -22,7 +22,10 @@
         "titleBar.inactiveForeground": "#e7e7e799",
         "statusBar.debuggingBackground": "#00baff",
         "statusBar.debuggingBorder": "#00baff",
-        "statusBar.debuggingForeground": "#15202b"
+        "statusBar.debuggingForeground": "#15202b",
+        "activityBarBadge.background": "#00ff45",
+        "activityBarBadge.foreground": "#15202b",
+        "editorGroup.border": "#ff6a33"
     },
     "peacock.color": "#FF4500"
 }
