@@ -4,6 +4,10 @@
 
 Script :
 ```sql  
+DROP DATABASE IF EXISTS Bibliothèque;
+CREATE DATABASE Bibliothque;
+USE Bibliotheque;
+
 CREATE TABLE livres(
    Id_livres COUNTER,
    theme VARCHAR(20),
