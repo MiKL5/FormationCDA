@@ -13,6 +13,9 @@ se_compose_de = (#N_Commande, #N_Article, Qte DECIMAL(3,0)  , Taux_de_TVA DECIMA
 ```
 ![exercice2](Exercice2MLD.png)
 
+>Explication des clé primaires et étrangères 
+>
+>"N_Article" est la clé primaire de la table "Article". Cette table est liée à "se_compose_de" pour laquelle la clé primaire est composée de "N_commande" et de "N_Article. Par ailleurs "N_Commande" vient de la table "Commande" dont elle est la clé primaire. Cette dernière à pour clé étrangère la clé primaire de la table "Client", à savoir "N_Client".  
 
 Script :
 ```SQL
@@ -53,10 +56,6 @@ CREATE TABLE se_compose_de(
    FOREIGN KEY(N_Article) REFERENCES Article(N_Article)
 );
 ```
->Expliquer la tranformation du MCD en MPD  
->
->"N_Article" est la clé primaire de la table "Article". Cette table est liée à "se_compose_de" pour laquelle la clé primaire est composée de "N_commande" et de "N_Article. Par ailleurs "N_Commande" vient de la table "Commande" dont elle est la clé primaire. Cette dernière à pour clé étrangère la clé primaire de la table "Client", à savoir "N_Client".
-
 ___
 >>> NOTA :  
 MCD : Modeèle Concptuel de Donnée  
