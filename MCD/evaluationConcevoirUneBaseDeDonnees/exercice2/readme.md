@@ -19,7 +19,7 @@ se_compose_de = (#N_Commande, #N_Article, Qte DECIMAL(3,0)  , Taux_de_TVA DECIMA
 
 Script :
 ```SQL
-DROP DATABASE magasin
+DROP DATABASE IF EXISTS magasin
 CREATE DATABASE magasin
 USE magasin
 
