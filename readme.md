@@ -8,7 +8,7 @@
 
 ## Évaluation
 
-[CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "CV")
+[CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
 ### MCD
