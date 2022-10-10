@@ -9,9 +9,9 @@
 
 ## Évaluation
 
-[Concevoir une base de données]()
-[Mettre en place une base de données]()
-[Développer des composants d'accès]() In progress ...
+[Concevoir une base de données]()  
+[Mettre en place une base de données]()  
+[Développer des composants d'accès]() In progress ...  
 [CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
