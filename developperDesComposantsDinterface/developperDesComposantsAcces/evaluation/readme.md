@@ -82,3 +82,10 @@ WHERE CompanyName LIKE 'Du monde entier';
 SELECT ROUND(AVG(DATEDIFF(ShippedDate,OrderDate))) AS ̀Delai_moyen_de_livraison_en_jours
 FROM orders;
 ```
+
+## **2) Procédures stockées**
+
+
+
+
+## 3) **Mise en place d'une règle de gestion**

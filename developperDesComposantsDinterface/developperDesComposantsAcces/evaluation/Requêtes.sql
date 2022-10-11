@@ -85,3 +85,5 @@
 
     SELECT ROUND(AVG(DATEDIFF(ShippedDate,OrderDate))) AS ̀Delai_de_livraison_en_jours
     FROM orders;
+
+    
