@@ -1,8 +1,10 @@
-**Requêtes d'intérrogation**
+# *Évaluation :* ***cas Northwind***
+
+## **1) Requêtes d'intérrogation**
 
 01. Liste des contacts français :
 ```sql
-SELECT CompanyName Société, ContactName Contact, ContactTitle Fonction, Phone Téléphone
+SELECT CompanyName Société, ContactName Contact, ContactTitle Fonction, Phone Num_de_téléphone
 FROM customers
 WHERE Country
 LIKE 'France';
@@ -10,13 +12,13 @@ LIKE 'France';
 
 02. Produits vendus par le fournisseur « Exotic Liquids » :
 ```sql
-SELECT productName produit, unitPrice prix
+SELECT productName Produit, unitPrice Prix
 FROM products
 WHERE supplierID = 1;
 ```
 03. Nombre de produits vendus par les fournisseurs Français dans l’ordre décroissant :
 ```sql
-SELECT CompanyName Fournisseur, SUM(UnitsInStock) nb_products
+SELECT CompanyName Fournisseur, SUM(UnitsInStock) Nbre_de_produits
 FROM suppliers
 JOIN products ON suppliers.SupplierID = products.SupplierID
 WHERE Country = 'France'
@@ -25,7 +27,7 @@ ORDER BY nb_products DESC;
 ```
 04. Liste des clients Français ayant plus de 10 commandes :
 ```sql
-SELECT CompanyName, COUNT(OrderDate) AS nb_cmdes
+SELECT CompanyName AS Clients, COUNT(OrderDate) AS Nbres_de_cmdes
 FROM customers
 JOIN orders ON customers.CustomerID = orders.CustomerID
 WHERE Country = "France" 
@@ -55,12 +57,28 @@ GROUP BY customers.Country ASC;
 ```
 07. Montant des ventes de 1997 :
 ```sql
-SELECT SUM(UnitPrice * Quantity) AS `Montant Ventes 97`
+SELECT SUM(UnitPrice * Quantity) AS `Montant_des_ventes_1997`
 FROM orders
 JOIN `order details` ON `order details`.OrderID = orders.OrderID
 WHERE YEAR(OrderDate) LIKE "1997";
 ```
 08. Montant des ventes de 1997 mois par mois :
 ```sql
-
+SELECT DISTINCT MONTH(OrderDate) AS Mois_de_1997, ROUND(SUM(`order details`.UnitPrice*`order details`.Quantity),2) AS `Montant_des_ventes_de_1997`
+FROM orders
+JOIN `order details` ON `order details`.OrderID = orders.OrderID
+WHERE YEAR(OrderDate) IN (1997)
+GROUP BY MONTH(OrderDate);
+```
+09. Depuis quelle date le client « Du monde entier » n’a plus commandé ?
+```sql
+SELECT MAX(DATE(OrderDate)) AS Date_de_dernière_commande
+FROM customers
+JOIN orders ON customers.CustomerID = orders.CustomerID
+WHERE CompanyName LIKE 'Du monde entier';
+```
+10. Montant des ventes de 1997 mois par mois :
+```sql
+SELECT ROUND(AVG(DATEDIFF(ShippedDate,OrderDate))) AS ̀Delai_moyen_de_livraison_en_jours
+FROM orders;
 ```
