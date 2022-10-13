@@ -84,8 +84,38 @@ FROM orders;
 ```
 
 ## **2) Procédures stockées**
+01. Créer la procédure stockée CA_ Fournisseur  
+### *Procédure correspondant à la neuveième requête*
+```sql
+DELIMITER |
+CREATE PROCEDURE CmdeDuMondeEntier()
+BEGIN
+    SELECT MAX(DATE(OrderDate)) AS Date_de_dernière_commande
+    FROM customers
+    JOIN orders ON customers.CustomerID = orders.CustomerID
+    WHERE CompanyName LIKE 'Du monde entier';
+END |
+DELIMITER ;
+
+CALL CmdeDuMondeEntier()
+```
+<!-- mettre un ; aprés END si je test avec l'extention mysql -->
+
+```sql
+DELIMITER |
+CREATE PROCEDURE MontantDesVentes97ParMois()
+BEGIN
+    SELECT ROUND(AVG(DATEDIFF(ShippedDate,OrderDate))) AS ̀Delai_moyen_de_livraison_en_jours
+    FROM orders;
+END |
+DELIMITER ;
 
 
+CALL CmdeDuMondeEntier()
 
-
+```
+<!-- Ne pas oublier les parenthèses à la création -->
 ## 3) **Mise en place d'une règle de gestion**
+```sql
+
+```
