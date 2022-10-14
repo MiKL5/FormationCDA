@@ -116,6 +116,11 @@ CALL CmdeDuMondeEntier()
 ```
 <!-- Ne pas oublier les parenthèses à la création -->
 ## 3) **Mise en place d'une règle de gestion**
+
+L'entreprise souhaite mettre en place cette règle de gestion: 
+*  Pour *tenir compte des coûts liés au transport*, ***on vérifiera que pour chaque produit d’une commande, le client réside dans le même pays que le fournisseur du même produit***
+* Il s'agit d'***interdire l'insertion de produits dans les commandes ne satisfaisants pas à ce critère***.
+* Décrivez *par quel moyen et avec quels outils* (procédures stockées, trigger...) *vous pourriez implémenter la règle de gestion suivante*.
 ```sql
 
 ```
