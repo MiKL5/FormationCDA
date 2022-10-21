@@ -1,6 +1,6 @@
 # Formation Concepteur Développeur d'Application
 
-## Projet fil rouge
+## Projet
 [Village Green](https://github.com/MiKL5/afpaCdaGreenVillage "Village Green")  
 [MCD](filRouge/ "fil rouge")  
 [Projet avec Symfony](https://github.com/MiKL5/afpaCdaGreenVillage/blob/main/vilageGreen)  
@@ -18,7 +18,7 @@
 
 >> #### ***COURS SQL*** <img align="right" src="src/img/SQL.png" alt="homepage" title="Struured Query Language" widht="auto" height="64px">
 
-### MCD
+>>>>#### MCD
 
 [Cas Niche]()  
 [Cas Cheval]()  
@@ -30,6 +30,6 @@
 
 
 
-### SQL
+>>>>#### SQL
 
 [Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)
