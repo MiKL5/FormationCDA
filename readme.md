@@ -18,18 +18,16 @@
 
 >> #### ***COURS SQL*** <img align="right" src="src/img/SQL.png" alt="homepage" title="Struured Query Language" widht="auto" height="64px">
 
->>>>#### MCD
+>>>>#### SQL
 
 [Cas Niche]()  
 [Cas Cheval]()  
 [Cas Course de cheval]()  
 [Cas Jeux olympiques d'hiver]()  
+
+[Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)
+
 Évaluation :
 * [Exercice 1](MCD/evaluationConcevoirUneBaseDeDonnees/exercice1 "Exercice 1 - Domaine de Gestion des emprunts")
 * [Exercice 2](MCD/evaluationConcevoirUneBaseDeDonnees/exercice2 "Exercice 2")
 
-
-
->>>>#### SQL
-
-[Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)
