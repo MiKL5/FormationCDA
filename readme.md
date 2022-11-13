@@ -16,9 +16,7 @@
 [CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
->> #### ***COURS SQL*** <img align="right" src="src/img/SQL.png" alt="homepage" title="Struured Query Language" widht="auto" height="64px">
-
->>>>#### SQL
+>#### ***SQL*** <img align="right" src="src/img/SQL.png" alt="SQL" title="Struured Query Language" widht="auto" height="64px">  
 
 [Cas Niche]()  
 [Cas Cheval]()  
@@ -31,3 +29,7 @@
 * [Exercice 1](MCD/evaluationConcevoirUneBaseDeDonnees/exercice1 "Exercice 1 - Domaine de Gestion des emprunts")
 * [Exercice 2](MCD/evaluationConcevoirUneBaseDeDonnees/exercice2 "Exercice 2")
 
+> #### AJAX et JQUERY  <img align="right" src="src/img/jquery-in-easy-steps-create-dynamic-web-page.png" alt="JQUERY" title="JQUERY" widht="auto" height="64px"> <img align="right" src="src/img/javascript-jquery-xml-ajax.png" alt="AJAX" title="AJAX" widht="auto" height="64px">  
+
+[Premier exercice](back-end/AJAX_JQuery/1erExercice)  
+[Second exercice](back-end/AJAX_JQuery/2dExercice)  
