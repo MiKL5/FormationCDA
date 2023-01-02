@@ -14,7 +14,6 @@
 [Concevoir une base de données]()  
 [Mettre en place une base de données]()  
 [Développer des composants d'accès]()  
-[CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
 >#### ***SQL*** <img align="right" src="src/img/SQL.png" alt="SQL" title="Struured Query Language" widht="auto" height="64px">  
