@@ -13,7 +13,7 @@
 
 [Concevoir une base de données]()  
 [Mettre en place une base de données]()  
-[Développer des composants d'accès]() In progress ...  
+[Développer des composants d'accès]()  
 [CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
@@ -24,7 +24,10 @@
 [Cas Course de cheval]()  
 [Cas Jeux olympiques d'hiver]()  
 
-[Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)
+[Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)  
+[Trigers]()  
+
+[Dictionnaire de données]()  
 
 Évaluation :
 * [Exercice 1](MCD/evaluationConcevoirUneBaseDeDonnees/exercice1 "Exercice 1 - Domaine de Gestion des emprunts")
