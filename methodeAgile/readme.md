@@ -1,12 +1,12 @@
 # La méthode Agile  
 
-### C'est quoi ?  
+### 1. C'est quoi ?  
 
 >Agile est une méthode de gestion de projet par itération.  
 Les cycles de développement sont courts, très ciblés, impliquent le client et favorisant la collaboration entre des équipes pluridisciplinaires.  
 L’objectif est de développer des produits plus rapidement, à moindre coût, et avec un taux de réussite et de satisfaction plus important.
 
-### Pourquoi l'extrême programming ?  
+### 2. Pourquoi l'extrême programming ?  
 
 > Elle pousse à l'extrême des principes simples.  
 > - la revue de code sera faite en permanence (par un binôme) ;  
@@ -17,16 +17,16 @@ L’objectif est de développer des produits plus rapidement, à moindre coût, 
 > - les modifications seront faites plusieurs fois par jour ;  
 >- des cycles de développement très rapides faciliteront l'adaptation au changement.  
 
-### Les avantages de SCRUM  
+### 3. Les avantages de SCRUM  
 
 > L'agilité, la flexibilité et renforcer la collaboration au sein des équipes afin d'atteindre les objectifs plus efficacement.  
 
-### Sprint et intégration continue, expliquez le fonctionnement d'un sprint  
+### 4. Sprint et intégration continue, expliquez le fonctionnement d'un sprint  
 
 > Ce sonnt des cycles de développement courts pour mener le projet en plusieurs séquences afin de se concentrer sur des tâches précises. La prise de risque est moindre car l'avancé se faiţ par étapes. Il est donc, plus simple de faire de modifications ou de reponsser certaines tâches non finalisées. 
 
 
-### C'est quoi le principe TDD :(Test Driven Development) ?
+### 5. C'est quoi le principe TDD :(Test Driven Development) ?
 
 > Il s'agit d'écrire des tests avant de coder ceon ces trois règles :  
 > - il est interdit d'écrire du code de production tant qu'il n'est pas écrit un test unitaire qui échoue ;  
