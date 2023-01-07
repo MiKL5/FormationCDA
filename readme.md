@@ -14,6 +14,7 @@
 [Concevoir une base de données]()  
 [Mettre en place une base de données]()  
 [Développer des composants d'accès]()  
+[CV](developperDesComposantsDinterface/frontEnd/evaluation/cv "Curriculum vitæ")
 ## Exercices
 
 >#### ***SQL*** <img align="right" src="src/img/SQL.png" alt="SQL" title="Struured Query Language" widht="auto" height="64px">  
@@ -36,3 +37,6 @@
 
 [Premier exercice](back-end/AJAX_JQuery/1erExercice)  
 [Second exercice](back-end/AJAX_JQuery/2dExercice)  
+
+> #### **Methodes Agiles**
+[Méthodes Agiles](methodeAgile "Méthodes Agiles")  
