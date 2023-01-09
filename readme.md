@@ -23,10 +23,10 @@
 [Cas Course de cheval]()  
 [Cas Jeux olympiques d'hiver]()  
 
-[Procédures stockées](developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)  
+[Procédures stockées](SQL/developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)  
 [Trigers]()  
 
-[Dictionnaire de données]()  
+[Dictionnaire de données](SQL/1_dictionnaireDeDonnees)  
 
 Évaluation :
 * [Exercice 1](MCD/evaluationConcevoirUneBaseDeDonnees/exercice1 "Exercice 1 - Domaine de Gestion des emprunts")
