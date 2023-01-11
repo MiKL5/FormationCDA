@@ -1,4 +1,4 @@
-<div align="center>
+<div align="center">
 # La méthode Agile  
 
 ### 1. C'est quoi ?  
