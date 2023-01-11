@@ -1,3 +1,4 @@
+<div align="center>
 # La méthode Agile  
 
 ### 1. C'est quoi ?  
@@ -34,3 +35,4 @@ L’objectif est de développer des produits plus rapidement, à moindre coût, 
 > - il n'est permis d'écrire que du code de production permettant directement de faire passer le test unitaire précédent.
 
 <img align="center" src="..\src\img\agileMethod.png" alt="AJAX" title="AJAX" widht="auto" height="auto">  
+</div>
