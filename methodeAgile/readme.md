@@ -1,4 +1,3 @@
-<div align="center">
 # La méthode Agile  
 
 ### 1. C'est quoi ?  
@@ -34,5 +33,6 @@ L’objectif est de développer des produits plus rapidement, à moindre coût, 
 > - il est interdit d'écrire plusre qu'un nouveau test unitaire en échec à la fois, et un test unitaire qui ne compile pas est déjà un test en échec3 ;  
 > - il n'est permis d'écrire que du code de production permettant directement de faire passer le test unitaire précédent.
 
+<div align="center">
 <img align="center" src="..\src\img\agileMethod.png" alt="AJAX" title="AJAX" widht="auto" height="auto">  
 </div>
