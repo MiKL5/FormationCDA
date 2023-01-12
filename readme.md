@@ -8,23 +8,13 @@
 
 #### 
 
-
-## Évaluation
-
-[Concevoir une base de données]()  
-[Mettre en place une base de données]()  
-[Développer des composants d'accès]()  
 ## Exercices
 
 >#### ***SQL*** <img align="right" src="src/img/SQL.png" alt="SQL" title="Struured Query Language" widht="auto" height="64px">  
 
-[Cas Niche]()  
-[Cas Cheval]()  
-[Cas Course de cheval]()  
-[Cas Jeux olympiques d'hiver]()  
+
 
 [Procédures stockées](SQL/developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)  
-[Trigers]()  
 
 [Dictionnaire de données](SQL/1_dictionnaireDeDonnees)  
 
