@@ -14,19 +14,22 @@ export default function App() {
       })
   }
 
-console.log(array);
+console.log(search);
   return (
-    
+    <>
+      <>
+        <input type="text" value={search} onChange={ (event) => { setSearch(event.target.value)} } />
+        <button onClick={click}>Search</button>
+      </>
+      <>
         array.map((film) =>  (
-          <>
-          <div>
-            {/* nom du film trouvé */}
-            {film.title}
-            <br />
-            {/* nom de l'image précédée du chemin pour afficher la jaquette */}
-            <img src={"https://image.tmdb.org/t/p/w185" + film.poster_path} />
-          );
-          </div>
+        {/* nom du film trouvé */}
+        {film.title}
+        <br />
+        {/* nom de l'image précédée du chemin pour afficher la jaquette */}
+        <img src={"https://image.tmdb.org/t/p/w185" + film.poster_path} />
+        );
+      </>
     </>
-        ) ) )
-        } 
+  )
+} 
