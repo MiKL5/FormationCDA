@@ -24,6 +24,12 @@
 
 > #### **[Méthodes Agiles](methodeAgile "Les méthodes Agiles")**
 
+> #### **React**  
+
+[Compteur](React/counter/ "Compteur")  
+[Méthodes Agiles](React/list/ "Liste de courses")  
+[Comprendre les API](React/understand_api "Comprendre les API")  
+
 > #### AJAX et JQUERY  <img align="right" src="src/img/jquery-official.svg" alt="JQUERY" title="JQUERY" widht="auto" height="64px"> <img align="right" src="src/img/javascript-jquery-xml-ajax.png" alt="AJAX" title="AJAX" widht="auto" height="64px">  
 
 [Premier exercice](back-end/AJAX_JQuery/1erExercice)  
