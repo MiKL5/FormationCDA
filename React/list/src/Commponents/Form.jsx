@@ -52,7 +52,7 @@ export default function Form(){
                 </div>
             </form>
 
-            <h2>Liste de courses</h2>
+            <h2>Ma liste</h2>
             <ul className="list-group">
                 {dataArr.map((item) => {
                     return( <Item
