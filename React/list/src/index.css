@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: #222;
   color:bisque;
+  cursor: pointer;
 }
 
 .App-logo {
