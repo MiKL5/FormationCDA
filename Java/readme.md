@@ -1,4 +1,4 @@
-# **Les bases du language Java** <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" align="right" width="64" height="auto" /></a>
+# **Les bases du langage Java** <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" align="right" width="64" height="auto" /></a>
 
 
 ## Organisation
