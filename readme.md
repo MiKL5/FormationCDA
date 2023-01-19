@@ -15,7 +15,6 @@
 
 
 [Procédures stockées](SQL/developperDesComposantsDinterface/developperDesComposantsAcces/proceduresStockees.md)  
-
 [Dictionnaire de données](SQL/1_dictionnaireDeDonnees)  
 
 Évaluation :
@@ -29,6 +28,8 @@
 [Compteur](React/counter/ "Compteur")  
 [Méthodes Agiles](React/list/ "Liste de courses")  
 [Comprendre les API](React/understand_api "Comprendre les API")  
+
+### [**_Java_**](Java "Bases de Java") <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" align="right" width="64" height="auto" />
 
 > #### **_AJAX et JQUERY_** <img align="right" src="src/img/jquery-official.svg" alt="JQUERY" title="JQUERY" widht="auto" height="64px"> <img align="right" src="src/img/javascript-jquery-xml-ajax.png" alt="AJAX" title="AJAX" widht="auto" height="64px">  
 
