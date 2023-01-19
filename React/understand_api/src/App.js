@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="App container mt-3">
       <div class="input-group input-group-default mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Titre du film</span>
+        <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-default">Titre du film</span>
         <input type="search" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value={search} onChange={(event) => { setSearch(event.target.value) }} />
         <button class="btn btn-success" onClick={handleClick}>Search</button>
       </div>
