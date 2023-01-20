@@ -27,5 +27,6 @@
         "titleBar.border": "#ff4500",
         "tab.activeBorder": "#ff6a33"
     },
-    "peacock.color": "#FF4500"
+    "peacock.color": "#FF4500",
+    "CodeGPT.query.language": "French"
 }
