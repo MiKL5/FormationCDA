@@ -38,3 +38,6 @@
     * préférer l'utilisation de variables finales plutôt que des variables statiques pour les constantes ;
     * éviter les fonctionnalités obsolètes ou dégradées ;  
     * préférer les collections génériques afin d'éviter les warnings de dépréciation.
+
+>>> NOTA  
+Les dossiers contenant les fichiers s'appellent des packages.
