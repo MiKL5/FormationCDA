@@ -122,5 +122,31 @@ L'entreprise souhaite mettre en place cette règle de gestion:
 * Il s'agit d'***interdire l'insertion de produits dans les commandes ne satisfaisants pas à ce critère***.
 * Décrivez *par quel moyen et avec quels outils* (procédures stockées, trigger...) *vous pourriez implémenter la règle de gestion suivante*.
 ```sql
+DELIMITER |
 
+CREATE TRIGGER pays_identique AFTER INSERT ON `orders details`
+FOR EACH ROW
+BEGIN
+    DECLARE pays_livraison VARCHAR(20);
+    DECLARE pays_fournisseur VARCHAR(20);
+      SET pays_livraison = (
+      SELECT ShipCountry
+      FROM `order details`
+      JOIN orders ON `order details`.OrderID = orders.OrderID
+      WHERE orders.OrdersID=NEW.OrderID
+      );
+      SET pays_fournisseur = (
+        SELECT Country
+        FROM suppliers
+        JOIN products ON suppliers.SuplierID = products.SupplierID
+        JOIN `order details` ON `order details`.ProductID = products.ProductID
+        JOIN orders ON orders.OrderID = `order details`.OrderID
+        WHERE products.ProductID = NEW.ProductID
+      );
+      IF pays_livraison != pays_fournisseur THEN
+              SIGNAL SQLSTATE '40000' SET MESSAGE_TEXT = "Au moins un produit ne provient pas d'un pays étranger";
+      END IF;
+END |
+
+DELIMITER ;
 ```
