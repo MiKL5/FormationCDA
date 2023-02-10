@@ -4,7 +4,7 @@
 [Dicitonnaire de données](dictionnaireDeDonnées.xlsx "Cliquez ici pour accéder au fichier")
 
 Le shéma de la base de données
-![shéma](greenMusic.png)
+![shéma](greenMusic_v2.png)
 
 La base de données
 ```sql
