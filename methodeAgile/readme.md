@@ -23,14 +23,14 @@ L’objectif est de développer des produits plus rapidement, à moindre coût, 
 
 ### 4. Sprint et intégration continue, expliquez le fonctionnement d'un sprint  
 
-> Ce sonnt des cycles de développement courts pour mener le projet en plusieurs séquences afin de se concentrer sur des tâches précises. La prise de risque est moindre car l'avancé se faiţ par étapes. Il est donc, plus simple de faire de modifications ou de reponsser certaines tâches non finalisées. 
+> Ce sont des cycles de développement courts pour mener le projet en plusieurs séquences afin de se concentrer sur des tâches précises. La prise de risque est moindre car l'avancée se fait par étapes. Il est donc, plus simple de faire de modifications ou de repousser certaines tâches non finalisées. 
 
 
 ### 5. C'est quoi le principe TDD :(Test Driven Development) ?
 
-> Il s'agit d'écrire des tests avant de coder ceon ces trois règles :  
+> Il s'agit d'écrire des tests avant de coder selon ces trois règles :  
 > - il est interdit d'écrire du code de production tant qu'il n'est pas écrit un test unitaire qui échoue ;  
-> - il est interdit d'écrire plusre qu'un nouveau test unitaire en échec à la fois, et un test unitaire qui ne compile pas est déjà un test en échec3 ;  
+> - il est interdit d'écrire plus qu'un nouveau test unitaire en échec à la fois, et un test unitaire qui ne compile pas est déjà un test en échec ;  
 > - il n'est permis d'écrire que du code de production permettant directement de faire passer le test unitaire précédent.
 
 <div align="center">
