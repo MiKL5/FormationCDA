@@ -26,5 +26,5 @@
 
 > ### AJAX et JQUERY  <img align="right" src="src/img/jquery-official.svg" alt="JQUERY" title="JQUERY" widht="auto" height="64px"> <img align="right" src="src/img/javascript-jquery-xml-ajax.png" alt="AJAX" title="AJAX" widht="auto" height="64px">  
 
-[Premier exercice](back-end/AJAX_JQuery/1erExercice)  
-[Second exercice](back-end/AJAX_JQuery/2dExercice)  
+[Premier exercice]()  
+[Second exercice]()  
